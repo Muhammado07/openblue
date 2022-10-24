@@ -100,7 +100,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 10px 0;
     
    }
    .nav-links a {
@@ -153,6 +153,9 @@
     .container {
       padding-left: 15px;
       padding-right: 15px;
+    }
+    .navbar {
+      padding: 20px 0;
     }
     .menu li {
       text-align: left;
@@ -650,6 +653,8 @@
     font-size: 14px;
   }
   .yvaa-header {
+    background: url('./img/openblue-bg.png') 70% 100% no-repeat;
+    background-size: cover;
     height: 85vh;
   }
   .yvaa-header .header {
