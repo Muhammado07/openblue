@@ -567,9 +567,36 @@
 .yvaa-section .section .main-feature .feature .img {
   width: 70px;
 }
+.solve {
+  padding: 20px 0 10px;
+}
+.solvy {
+  padding-bottom: 10px;
+}
 .yvaa-section .section .main-feature .feature .img img {
   width: 70px;
   height: 70px;
+}
+.yvaa-section .section .main-features {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.yvaa-section .section .main-features .featu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.yvaa-section .section .main-features .featu .imgy {
+  width: 100px;
+}
+.yvaa-section .section .main-features .featu .imgy img {
+  width: 100%;
+}
+.yvaa-section .section .main-features .featu p {
+  font-size: 18px;
 }
 .yvaa-section .section .side-img {
   width: 100%;
@@ -578,7 +605,11 @@
 .yvaa-section .section .side-img img {
   width: 100%;
 }
-
+@media screen and (max-width: 360px) {
+  .yvaa-section .section .main-features .featu .imgy {
+    width: 80px;
+  }
+}
 #register {
   scroll-margin-top: 70px;
 }
